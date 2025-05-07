@@ -9,9 +9,9 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 $servername = "localhost";
-$username = "root";
-$password = "ilija";
-$dbname = "panmotortest";
+$username = "*********";
+$password = "*********";
+$dbname = "**********";
 
 // Konektovanje na bazu
 $conn = mysqli_connect($servername, $username, $password, $dbname);
